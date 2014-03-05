@@ -1,3 +1,23 @@
+@media (max-width: 920px) {
+  img {
+    display: none;
+  }
+
+  .logo.right {
+  	display: none;
+  }
+
+  .form {
+	
+	background-color: red;
+	margin: 0 auto;
+  }
+
+.form p{
+	padding-top: 10px;
+  }
+}
+
 body {
 	background: #C0C0C0;
 	font-family: Arial;
@@ -108,7 +128,7 @@ body {
 	display: block;
 	margin: 0 auto; 
 	height: 30px;
-	width: 230px;
+	width: 50%;
 	background-color: #003366;
 	border-radius: 3px;
 	text-align: center;
@@ -184,8 +204,8 @@ body {
 }
 
 .form {
-	width: 700px;
-	height: 100px;
+	width: 50%;
+	height: auto;
 	background-color: #DCDCDC;
 	margin: 0 auto;
 }
