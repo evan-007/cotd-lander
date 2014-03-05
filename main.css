@@ -13,9 +13,6 @@
 	margin: 0 auto;
   }
 
-.form p{
-	padding-top: 10px;
-  }
 }
 
 body {
@@ -127,7 +124,7 @@ body {
 .cta {
 	display: block;
 	margin: 0 auto; 
-	height: 30px;
+	height: auto;
 	width: 50%;
 	background-color: #003366;
 	border-radius: 3px;
@@ -201,6 +198,12 @@ body {
 	width: auto;
 	display: block;
 	margin: 0 auto
+}
+
+.spacer {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .form {
